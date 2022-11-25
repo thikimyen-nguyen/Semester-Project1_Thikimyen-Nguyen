@@ -1,0 +1,140 @@
+/* Global style for mobile */
+:root{
+    --mint: #34BA99;
+    --dark_green: #21562A;
+    --green: #3FA752;
+    --bright_green: #D9EDDC;
+    --bright_mint: #E1F5F0;
+    --orbitron: 'Orbitron', Arial, Verdana, Tahoma, Georgia, sans-serif;
+    --nunito: 'Nunito', Arial, Verdana, Tahoma, Georgia, sans-serif;
+    --roboto: 'Roboto', Arial, Verdana, Tahoma, Georgia, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.header_nav{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    gap: 10px;
+}
+header li{
+    display: inline;
+    padding: 10px;
+    text-transform: capitalize;
+}
+header ul{
+    padding: 0px;
+}
+header a{
+    color: var(--dark_green) ;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 13px;
+}
+.active_header, header a:hover{
+    text-decoration: underline;
+}
+body{
+    font-family: var(--nunito);
+    color: black;
+    font-size: 12px;
+}
+
+header img {
+    max-width: 102px;
+}
+   
+.header_banner{
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--bright_green);
+}
+.header_banner > * {
+    padding: 0px 10px;
+}
+.header_banner span{
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--dark_green);
+    margin-right: 5px;
+    padding: 2px 5px;
+    font-weight: bold;
+    
+}
+.header_banner p{
+    font-family: var(--nunito);
+    color: var(--dark_green);
+    align-self: center;
+}
+.time{
+    font-size: 10px;
+}
+.home_cover {
+    background: url(../Images/jesse-orrico-60373-min.jpg);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: top;  
+    width: 100%; 
+    min-height: 248px;
+    
+}
+
+.cover_content p{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.cover_content {
+    position: absolute;
+    top: 27% ;
+    padding-left: 25px;
+    width: 40%;
+}
+.cta{
+    font-family: var(--nunito);
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    background-color: var(--mint);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 270px ) {
+.header_banner,  .cover_content p{
+    display: none;
+}
+
+}
+h1 {
+text-transform: capitalize;
+font-family: var(--orbitron);
+font-weight: 700;
+font-size: 20px;
+padding: 30px 0px;
+text-align: center;
+color: var(--dark_green);
+}
+h2{
+    text-transform: capitalize;
+    font-family: var(--roboto);
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+}
+.explore_together img{
+    width: 100%;
+}
+.explore_header {
+    display: flex;
+    background-color: var(--mint);
+}
+.explore_header > *{
+    align-self: center;
+    padding: 0px 15px;
+}
+.explore_together span{
+    font-size: 14px;
+    font-weight: bold;
+}
