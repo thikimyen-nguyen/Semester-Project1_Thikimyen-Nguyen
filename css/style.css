@@ -122,19 +122,52 @@ h2{
     font-size: 15px;
     margin: 0px;
     color: white;
+    
 }
-.explore_together img{
+h3{
+    text-transform: capitalize;
+    font-family: var(--roboto);
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+    background-color: var(--dark_green);
+    text-align: center;
+    padding: 7px;
+    margin: 10px 0px;
+}
+main img{
     width: 100%;
 }
-.explore_header {
+.explore_header{
     display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.mint{
     background-color: var(--mint);
 }
-.explore_header > *{
-    align-self: center;
-    padding: 0px 15px;
+.dark_green{
+    color: var(--dark_green);
 }
-.explore_together span{
+.explore_header > * {
+    align-self: center;
+    margin: 0px 5px;
+}
+main span{
     font-size: 14px;
     font-weight: bold;
+}
+.explore_together{
+    margin-bottom: 70px;
+}
+.explore_header ul{
+    padding: 0px;
+}
+.school_tour_content{
+    padding-left: 40px ;
+}
+.event{
+    display: grid;
+    grid-template-columns: auto auto;
 }
