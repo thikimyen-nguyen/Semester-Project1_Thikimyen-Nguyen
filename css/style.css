@@ -9,7 +9,17 @@
     --nunito: 'Nunito', Arial, Verdana, Tahoma, Georgia, sans-serif;
     --roboto: 'Roboto', Arial, Verdana, Tahoma, Georgia, sans-serif;
 }
-
+body{
+    font-family: var(--nunito);
+    color: black;
+    font-size: 12px;
+}
+header img, footer img {
+    max-width: 102px;
+}
+main img{
+    width: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -37,26 +47,21 @@ header a{
 footer a{
     color: white;
 }
-.active_header, header a:hover, footer a:hover{
+.active, header a:hover, footer a:hover{
     text-decoration: underline;
 }
-body{
-    font-family: var(--nunito);
-    color: black;
-    font-size: 12px;
-}
 
-header img, footer img {
-    max-width: 102px;
-}
-   
 .header_banner{
     display: flex;
     justify-content: flex-end;
     background-color: var(--bright_green);
+    color: var(--dark_green);
 }
 .header_banner > * {
     padding: 0px 10px;
+}
+.time{
+    font-size: 10px;
 }
 .header_banner span{
     text-transform: uppercase;
@@ -65,24 +70,15 @@ header img, footer img {
     margin-right: 5px;
     padding: 2px 5px;
     font-weight: bold;
-    
 }
-.header_banner p{
-    font-family: var(--nunito);
-    color: var(--dark_green);
-    align-self: center;
-}
-.time{
-    font-size: 10px;
-}
+
 .home_cover {
     background: url(../Images/jesse-orrico-60373-min.jpg);
     background-size: cover;
     background-position-x: right;
     background-position-y: top;  
     width: 100%; 
-    min-height: 248px;
-    
+    min-height: 248px;   
 }
 
 .cover_content p{
@@ -92,12 +88,11 @@ header img, footer img {
 
 .cover_content {
     position: absolute;
-    top: 27% ;
+    top: 13% ;
     padding-left: 25px;
     width: 40%;
 }
 .cta{
-    font-family: var(--nunito);
     font-size: 13px;
     font-weight: 500;
     color: black;
@@ -105,71 +100,58 @@ header img, footer img {
     padding: 5px 15px;
     border-radius: 10px;
 }
-@media only screen and (max-width: 270px ) {
-.header_banner,  .cover_content p{
-    display: none;
-}
 
-}
 h1 {
-text-transform: capitalize;
-font-family: var(--orbitron);
-font-weight: 700;
-font-size: 20px;
-padding: 30px 0px;
-text-align: center;
-color: var(--dark_green);
+    text-transform: capitalize;
+    font-family: var(--orbitron);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px 0px;
+    text-align: center;
+    color: var(--dark_green);
 }
-h2{
+h2, h3{
     text-transform: capitalize;
     font-family: var(--roboto);
-    font-weight: 600;
-    font-size: 15px;
     margin: 0px;
     color: white;
-    
+}
+h2 {
+    font-size: 15px;
+    font-weight: 600;
 }
 h3{
-    text-transform: capitalize;
-    font-family: var(--roboto);
-    font-weight: 600;
     font-size: 13px;
-    margin: 0px;
-    color: white;
     background-color: var(--dark_green);
     text-align: center;
     padding: 7px;
     margin: 10px 0px;
+    font-weight: 500;
 }
-main img{
-    width: 100%;
+.explore{
+    margin-bottom: 70px;
 }
-.explore_title{
+.explore_title, .explore_content{
     display: flex;
     justify-content: center;
     padding: 5px;
 }
-.mint{
-    background-color: var(--mint);
-}
 
-.explore_title > * {
+.explore_title > *, .explore_content > * {
     align-self: center;
     margin: 0px 5px;
+}
+.mint{
+    background-color: var(--mint);
 }
 main span{
     font-size: 14px;
     font-weight: bold;
 }
-.explore{
-    margin-bottom: 70px;
+.school_tour_content {
+    padding: 0px 20px;
 }
-.explore_title ul{
-    padding: 0px;
-}
-.school_tour_content{
-    padding-left: 20px ;
-}
+
 /* special event */
 .dark_green{
     color: var(--dark_green);
@@ -179,10 +161,8 @@ main span{
 .event_title{
     width: 70%;
 }
-
 .special_event{
     background-color: var(--bright_mint);
-  
 }
 .event_content{
     display: grid;
@@ -196,6 +176,7 @@ main span{
 .event{
     padding-bottom: 20px;
 }
+
 footer{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -226,4 +207,222 @@ footer li{
 footer img{
     background-color: white;
     margin-top: 15px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 641px) {
+    body{
+        font-size: 20px;
+        line-height: 160%;
+        padding: 0px 50px;
+    }
+    header img, footer img {
+        max-width: 135px;
+    }
+    .header_nav{
+        gap: 20px;
+    }
+    header li{
+        padding: 15px;
+    }
+    header a, footer a{
+        font-size: 20px;
+    }
+    .header_banner > * {
+        padding: 0px 15px;
+    }
+    .header_banner span{
+        font-size: 15px ;
+    }
+    .time {
+        font-size: 13px;
+    }
+    .home_cover {
+        min-height: 400px;   
+    }
+    .cover_content {
+        top: 20% ;
+        padding-left: 30px;
+    }
+    .cta{
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        padding: 40px 0px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+        padding: 15px;
+        margin: 20px 0px;
+    }
+    .explore{
+        margin-bottom: 90px;
+    }
+    .explore_title, .explore_content {
+        padding: 10px;
+    }
+    .explore_title > *, .explore_content > * {
+        margin: 0px 10px;
+    }
+    main span{
+        font-size: 25px;
+    }
+    .school_tour_content{
+        padding: 0px 30px;
+    }
+    
+    /* special event */
+    .dark_green{
+        padding: 10px 40px ;
+    }
+    .event{
+        padding-bottom: 50px;
+    }
+
+    footer{
+        padding: 20px;
+        column-gap: 70px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    .get_involved li{
+        font-size: 15px;
+    }
+    .footer_nav li{
+        padding-bottom: 10px;
+    }
+    footer img{
+        margin-top: 30px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1008px){
+    body{
+        font-size: 25px;
+        line-height: 180%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0px 100px;
+    }
+    header img, footer img {
+        max-width: 200px;
+    }
+    .header_nav{
+        gap: 50px;
+    }
+    header li{
+        padding: 30px;
+    }
+    header a, footer a{
+        font-size: 30px;
+    }
+
+    .header_banner > * {
+        padding: 0px 30px;
+    }
+    .header_banner span{
+        font-size: 25px ;
+    }
+    .time {
+        font-size: 20px;
+    }
+    .home_cover {
+        min-height: 860px;   
+    }
+    .cover_content {
+        top: 35% ;
+        padding-left: 100px;
+    }
+    .cta {
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        padding: 80px 0px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;      
+    }
+    .explore {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        padding-bottom: 100px;
+    }
+    .explore_image {
+        grid-row: 1/ span2;
+        align-self: center;
+    }
+    .explore_title {
+        padding: 10px;
+    }
+    .explore_title > * {
+        margin: 0px 20px;
+    }
+    .explore_content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    main span {
+        font-size: 30px;
+    }
+    .school_tour_content{
+        padding: 0px 30px;
+    }
+    
+    /* special event */
+    .dark_green{
+        padding: 20px 40px;
+        grid-column: 1/ span 2;
+    }
+    .event{
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .event_title {
+        width: 90%;
+        align-self: center;
+    }
+    .event_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .special_event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .special_event img {
+        height: 900px ;
+    }
+    footer{
+        padding: 20px;
+        column-gap: 70px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    .get_involved li{
+        font-size: 15px;
+    }
+    .footer_nav li{
+        padding-bottom: 10px;
+    }
+    footer img{
+        margin-top: 30px;
+    }
 }
