@@ -340,6 +340,7 @@ footer img{
     .cover_content {
         top: 35% ;
         padding-left: 100px;
+        width: 30%;
     }
     .cta {
         font-size: 30px;
