@@ -78,7 +78,7 @@ footer a{
     background-position-x: right;
     background-position-y: top;  
     width: 100%; 
-    min-height: 248px;   
+    min-height: 250px;   
 }
 
 .cover_content p{
@@ -99,6 +99,7 @@ footer a{
     background-color: var(--mint);
     padding: 5px 15px;
     border-radius: 10px;
+    margin: 5px;
 }
 
 h1 {
@@ -113,12 +114,12 @@ h1 {
 h2, h3{
     text-transform: capitalize;
     font-family: var(--roboto);
-    margin: 0px;
-    color: white;
+   
 }
 h2 {
     font-size: 15px;
     font-weight: 600;
+    color: var(--dark_green);
 }
 h3{
     font-size: 13px;
@@ -127,7 +128,9 @@ h3{
     padding: 7px;
     margin: 10px 0px;
     font-weight: 500;
+    color: white;
 }
+
 .explore{
     margin-bottom: 70px;
 }
@@ -141,8 +144,8 @@ h3{
     align-self: center;
     margin: 0px 5px;
 }
-.mint{
-    background-color: var(--mint);
+.bright_green{
+    background-color: var(--bright_green);
 }
 main span{
     font-size: 14px;
@@ -153,8 +156,7 @@ main span{
 }
 
 /* special event */
-.dark_green{
-    color: var(--dark_green);
+.white_background {
     background-color: white;
     padding: 10px 30px ;
 }
@@ -278,7 +280,7 @@ footer img{
     }
     
     /* special event */
-    .dark_green{
+    .white_background{
         padding: 10px 40px ;
     }
     .event{
@@ -305,7 +307,7 @@ footer img{
 
 /* large tablet */ 
 @media only screen and (min-width: 900px) {
-    .dark_green{
+    .white_background {
         grid-column: 1/ span 2;
     }
     .event{
@@ -363,7 +365,7 @@ footer img{
         font-size: 20px;
     }
     .home_cover {
-        min-height: 860px;   
+        min-height: 850px;   
     }
     .cover_content {
         top: 35% ;
@@ -414,7 +416,7 @@ footer img{
     }
     
     /* special event */
-    .dark_green{
+    .white_background {
         grid-column: 1/ span 3;
     }
     .event{

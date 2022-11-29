@@ -1,0 +1,78 @@
+/* Global style for mobile */
+.visit_cover {
+    background: url(../Images/scott-webb-102825-min.jpg);
+    background-size: cover;
+   background-position: center;
+    width: 100%; 
+    min-height: 250px;   
+}
+h2 {
+    padding: 10px 30px;
+    background-color: var(--bright_mint);
+}
+p {
+    padding: 0px 30px;
+}
+section {
+    margin-bottom: 50px;
+}
+.guided_tour {
+    display: flex;
+    flex-direction: column;
+}
+.tour_cta {
+    text-align: center;
+}
+.accessibility {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.accessibility h2 {
+    grid-column: 1/ span 2;
+}
+.accessibility p {
+    padding: 0px 20px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 641px) {
+    .visit_cover {
+        min-height: 350px;   
+    }
+}
+/* large tablet */ 
+@media only screen and (min-width: 900px) {
+    .visit_cover {
+        min-height: 500px;   
+    }
+    .visit_content {
+        display: flex;
+        column-gap: 40px;
+    }
+    .visit_content > * {
+        flex: 1;  
+    }
+    .shop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .shop h2 {
+        grid-column: 1 / span 2;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1201px) {
+    .visit_cover {
+        min-height: 800px;   
+    }
+    .tour_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+    .tour_content img {
+        grid-row: 1 / span 4;
+    }
+}
