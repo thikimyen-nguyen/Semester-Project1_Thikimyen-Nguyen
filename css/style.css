@@ -13,6 +13,7 @@ body{
     font-family: var(--nunito);
     color: black;
     font-size: 12px;
+    
 }
 header img, footer img {
     max-width: 102px;
@@ -72,13 +73,15 @@ footer a{
     font-weight: bold;
 }
 
-.home_cover {
+.home {
     background: url(../Images/jesse-orrico-60373-min.jpg);
-    background-size: cover;
     background-position-x: right;
     background-position-y: top;  
-    width: 100%; 
-    min-height: 250px;   
+    background-size: cover;
+}
+.cover {
+    background-repeat: no-repeat;
+    min-height: 250px; 
 }
 
 .cover_content p{
@@ -100,6 +103,7 @@ footer a{
     padding: 5px 15px;
     border-radius: 10px;
     margin: 5px;
+    text-transform: capitalize;
 }
 
 h1 {
@@ -118,8 +122,9 @@ h2, h3{
 }
 h2 {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--dark_green);
+    margin: 0px;
 }
 h3{
     font-size: 13px;
@@ -144,8 +149,8 @@ h3{
     align-self: center;
     margin: 0px 5px;
 }
-.bright_green{
-    background-color: var(--bright_green);
+.explore_title {
+    background-color: var(--bright_mint);
 }
 main span{
     font-size: 14px;
@@ -210,6 +215,20 @@ footer img{
     background-color: white;
     margin-top: 15px;
 }
+.exhibition {
+    background: url(../Images/learn-2405206_1920-min.jpg);
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top;  
+}
+.exhibition_spaces {
+    background-color: var(--dark_green);
+    padding: 15px;
+    margin: 20px 0px;
+}
+.exhibition_item {
+    margin-bottom: 40px;
+}
 
 /* Tablet */
 @media only screen and (min-width: 641px) {
@@ -239,7 +258,7 @@ footer img{
     .time {
         font-size: 13px;
     }
-    .home_cover {
+    .cover {
         min-height: 400px;   
     }
     .cover_content {
@@ -307,6 +326,9 @@ footer img{
 
 /* large tablet */ 
 @media only screen and (min-width: 900px) {
+    .cover {
+        min-height: 500px;
+    }
     .white_background {
         grid-column: 1/ span 2;
     }
@@ -338,7 +360,7 @@ footer img{
     body{
         font-size: 25px;
         line-height: 180%;
-        max-width: 1300px;
+        max-width: 1280px;
         margin: auto;
         padding: 0px 50px;
     }
@@ -364,7 +386,7 @@ footer img{
     .time {
         font-size: 20px;
     }
-    .home_cover {
+    .cover {
         min-height: 850px;   
     }
     .cover_content {

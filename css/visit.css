@@ -1,10 +1,8 @@
 /* Global style for mobile */
-.visit_cover {
+.visit {
     background: url(../Images/scott-webb-102825-min.jpg);
     background-size: cover;
-   background-position: center;
-    width: 100%; 
-    min-height: 250px;   
+    background-position: center; 
 }
 h2 {
     padding: 10px 30px;
@@ -35,17 +33,10 @@ section {
     padding: 0px 20px;
 }
 
-/* Tablet */
-@media only screen and (min-width: 641px) {
-    .visit_cover {
-        min-height: 350px;   
-    }
-}
+
 /* large tablet */ 
 @media only screen and (min-width: 900px) {
-    .visit_cover {
-        min-height: 500px;   
-    }
+  
     .visit_content {
         display: flex;
         column-gap: 40px;
@@ -64,9 +55,6 @@ section {
 
 /* Desktop */
 @media only screen and (min-width: 1201px) {
-    .visit_cover {
-        min-height: 800px;   
-    }
     .tour_content {
         display: grid;
         grid-template-columns: 1fr 1fr;
