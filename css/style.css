@@ -13,7 +13,7 @@ body{
     font-family: var(--nunito);
     color: black;
     font-size: 12px;
-    
+    line-height: 180%;
 }
 header img, footer img {
     max-width: 102px;
@@ -229,12 +229,17 @@ footer img{
 .exhibition_item {
     margin-bottom: 40px;
 }
+.exhibition_intro {
+    background-color: var(--bright_mint);
+    padding: 20px;
+    background-color: var(--dark_green);
+    color: white;
+}
 
 /* Tablet */
 @media only screen and (min-width: 641px) {
     body{
         font-size: 20px;
-        line-height: 160%;
         padding: 0px 50px;
     }
     header img, footer img {
@@ -348,10 +353,14 @@ footer img{
     .special_event {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        column-gap: 20px;
     }
     .special_event img {
        max-height: 450px;
+    }
+    .exhibition_intro {
+        padding: 30px;
+        
     }
 }
 
@@ -359,7 +368,7 @@ footer img{
 @media only screen and (min-width: 1201px){
     body{
         font-size: 25px;
-        line-height: 180%;
+        line-height: 200%;
         max-width: 1280px;
         margin: auto;
         padding: 0px 50px;
@@ -426,7 +435,6 @@ footer img{
         margin: 0px 20px;
     }
     .explore_content {
-        display: flex;
         flex-direction: column;
         row-gap: 20px;
     }
@@ -434,7 +442,7 @@ footer img{
         font-size: 30px;
     }
     .school_tour_content{
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
     
     /* special event */
@@ -447,7 +455,6 @@ footer img{
   
     .special_event {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
         font-size: 20px;
     }
     .special_event span {
