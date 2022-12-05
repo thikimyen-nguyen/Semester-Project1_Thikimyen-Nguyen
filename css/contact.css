@@ -24,6 +24,14 @@ input, select, textarea {
 select {
     background-color: var(--bright_mint);
 }
+i {
+    color: var(--mint);
+    font-size: 40px;
+    margin: 20px 0px 50px;
+}
+.contact_success {
+    text-align: center;
+}
 
 /* Tablet */
 @media only screen and (min-width: 641px) {
@@ -37,13 +45,20 @@ select {
     .contact_cta {
         padding: 40px 30px;
     }
-    
+    select {
+        font-size: 20px;
+    }
+    i {
+        font-size: 50px;
+        margin: 20px 0px 70px;
+    }
 }
 
 /* large tablet */ 
 @media only screen and (min-width: 900px) {
     .contact_form {
-        max-width: 800px;
+        width: 70%;
+        margin: auto;
     }
     label {
         margin-top: 40px;
@@ -55,11 +70,17 @@ select {
     .contact_cta {
         padding: 50px 30px;
     }
+    i {
+        font-size: 70px;
+        margin: 30px 0px 80px;
+    }
 }
 
 /* Desktop */
 @media only screen and (min-width: 1201px) {
-   
+    .contact_form {
+        width: 60%;
+    }
     label {
         margin-top: 50px;
     }
@@ -70,5 +91,11 @@ select {
     .contact_cta {
         padding: 80px 30px;
     }
-  
+    select {
+        font-size: 25px;
+    }
+    i {
+        font-size: 100px;
+        margin: 40px 0px 100px;
+    }
 }
