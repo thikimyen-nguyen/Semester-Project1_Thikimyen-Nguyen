@@ -1,0 +1,74 @@
+/* Global style for mobile */
+.contact {
+    background: url(../Images/genoa-956405_1920-min.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+label {
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+input, select, textarea {
+    padding: 7px 0px;
+    border-radius: 10px;
+}
+.contact_cta {
+    padding: 30px;
+}
+select {
+    background-color: var(--bright_mint);
+}
+
+/* Tablet */
+@media only screen and (min-width: 641px) {
+    label {
+        margin-top: 30px;
+    }
+    
+    input, select, textarea {
+        padding: 15px 0px;
+    }
+    .contact_cta {
+        padding: 40px 30px;
+    }
+    
+}
+
+/* large tablet */ 
+@media only screen and (min-width: 900px) {
+    .contact_form {
+        max-width: 800px;
+    }
+    label {
+        margin-top: 40px;
+    }
+    
+    input, select, textarea {
+        padding: 20px 0px;
+    }
+    .contact_cta {
+        padding: 50px 30px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1201px) {
+   
+    label {
+        margin-top: 50px;
+    }
+    
+    input, select, textarea {
+        padding: 25px 0px;
+    }
+    .contact_cta {
+        padding: 80px 30px;
+    }
+  
+}

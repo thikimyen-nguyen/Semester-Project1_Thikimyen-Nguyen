@@ -4,13 +4,7 @@
     background-size: cover;
     background-position: center; 
 }
-h2 {
-    padding: 10px 30px;
-    background-color: var(--bright_mint);
-}
-p {
-    padding: 0px 30px;
-}
+
 section {
     margin-bottom: 50px;
 }

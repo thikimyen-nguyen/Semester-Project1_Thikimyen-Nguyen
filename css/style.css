@@ -13,7 +13,7 @@ body{
     font-family: var(--nunito);
     color: black;
     font-size: 12px;
-    line-height: 180%;
+    line-height: 200%;
 }
 header img, footer img {
     max-width: 102px;
@@ -34,7 +34,7 @@ header li{
     padding: 10px;
     text-transform: capitalize;
 }
-header ul, footer ul{
+ul{
     padding: 0px;
 }
 header a, footer a{
@@ -84,17 +84,6 @@ footer a{
     min-height: 250px; 
 }
 
-.cover_content p{
-    text-transform: capitalize;
-    font-weight: 500;
-}
-
-.cover_content {
-    position: absolute;
-    top: 13% ;
-    padding-left: 25px;
-    width: 40%;
-}
 .cta{
     font-size: 13px;
     font-weight: 500;
@@ -118,46 +107,47 @@ h1 {
 h2, h3{
     text-transform: capitalize;
     font-family: var(--roboto);
-   
 }
 h2 {
     font-size: 15px;
     font-weight: 500;
     color: var(--dark_green);
     margin: 0px;
+    background-color: var(--bright_mint);
+    padding: 5px 30px;
 }
 h3{
     font-size: 13px;
     background-color: var(--dark_green);
     text-align: center;
-    padding: 7px;
     margin: 10px 0px;
     font-weight: 500;
     color: white;
+    padding: 5px;
 }
 
 .explore{
     margin-bottom: 70px;
 }
+
 .explore_title, .explore_content{
     display: flex;
     justify-content: center;
-    padding: 5px;
 }
 
 .explore_title > *, .explore_content > * {
     align-self: center;
     margin: 0px 5px;
 }
-.explore_title {
+.explore_title, .special_event {
     background-color: var(--bright_mint);
 }
 main span{
     font-size: 14px;
     font-weight: bold;
 }
-.school_tour_content {
-    padding: 0px 20px;
+p, .explore ul {
+    padding: 0px 30px;
 }
 
 /* special event */
@@ -168,9 +158,7 @@ main span{
 .event_title{
     width: 70%;
 }
-.special_event{
-    background-color: var(--bright_mint);
-}
+
 .event_content{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -230,7 +218,6 @@ footer img{
     margin-bottom: 40px;
 }
 .exhibition_intro {
-    background-color: var(--bright_mint);
     padding: 20px;
     background-color: var(--dark_green);
     color: white;
@@ -240,7 +227,7 @@ footer img{
 @media only screen and (min-width: 641px) {
     body{
         font-size: 20px;
-        padding: 0px 50px;
+        padding: 0px 20px;
     }
     header img, footer img {
         max-width: 135px;
@@ -266,10 +253,7 @@ footer img{
     .cover {
         min-height: 400px;   
     }
-    .cover_content {
-        top: 20% ;
-        padding-left: 30px;
-    }
+    
     .cta{
         font-size: 20px;
         padding: 5px 20px;
@@ -284,13 +268,12 @@ footer img{
     }
     h3 {
         font-size: 20px;
-        padding: 15px;
         margin: 20px 0px;
     }
     .explore{
         margin-bottom: 90px;
     }
-    .explore_title, .explore_content {
+    .explore_content {
         padding: 10px;
     }
     .explore_title > *, .explore_content > * {
@@ -299,9 +282,7 @@ footer img{
     main span{
         font-size: 25px;
     }
-    .school_tour_content{
-        padding: 0px 30px;
-    }
+   
     
     /* special event */
     .white_background{
@@ -362,13 +343,19 @@ footer img{
         padding: 30px;
         
     }
+    h3{
+        padding: 7px;
+    }
+    h2 {
+        padding: 7px 30px;
+    }
+   
 }
 
 /* Desktop */
 @media only screen and (min-width: 1201px){
     body{
         font-size: 25px;
-        line-height: 200%;
         max-width: 1280px;
         margin: auto;
         padding: 0px 50px;
@@ -398,11 +385,7 @@ footer img{
     .cover {
         min-height: 850px;   
     }
-    .cover_content {
-        top: 35% ;
-        padding-left: 100px;
-        width: 30%;
-    }
+    
     .cta {
         font-size: 30px;
         padding: 10px 30px;
@@ -414,9 +397,10 @@ footer img{
     }
     h2 {
         font-size: 35px;
+        padding: 10px 30px;
     }
     h3 {
-        font-size: 20px;      
+        padding: 10px;
     }
     .explore {
         display: grid;
@@ -428,9 +412,7 @@ footer img{
         grid-row: 1/ span2;
         align-self: center;
     }
-    .explore_title {
-        padding: 10px;
-    }
+   
     .explore_title > * {
         margin: 0px 20px;
     }
@@ -441,9 +423,7 @@ footer img{
     main span {
         font-size: 30px;
     }
-    .school_tour_content{
-        padding: 0px 20px;
-    }
+   
     
     /* special event */
     .white_background {

@@ -1,13 +1,11 @@
+/* About page */
 /* Global style for mobile */
 .about {
     background: url(../Images/library-1132573_1920-min.jpg);
     background-size: cover;
     background-position: center; 
 }
-.about_info {
-    background-color: var(--bright_mint);
-    padding: 20px;
-}
+
 .young_visitors {
     display: flex;
     flex-direction: column;
@@ -23,7 +21,9 @@
 h2 {
     margin-top: 40px;
 }
-
+p {
+    padding: 0px 5px;
+}
 /* Tablet */
 @media only screen and (min-width: 641px) {
     .about_info {
@@ -61,3 +61,4 @@ h2 {
         margin-top: 100px;
     }
 }
+
