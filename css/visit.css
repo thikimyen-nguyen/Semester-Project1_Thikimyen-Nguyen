@@ -1,6 +1,20 @@
 /* Global style for mobile */
 .visit {
     background: url(../Images/scott-webb-102825-min.jpg);
+}
+.cosmology {
+    background: url(../Images/Cosmology.jpg); 
+}
+.evolution {
+    background: url(../Images/Evolution.jpg); 
+}
+.biology {
+    background: url(../Images/biology.jpg);
+}
+.robotics {
+    background: url(../Images/robotic.jpg);
+}
+.visit, .cosmology, .evolution, .biology, .robotics {
     background-size: cover;
     background-position: center; 
 }
@@ -26,7 +40,6 @@ section {
 .accessibility p {
     padding: 0px 20px;
 }
-
 
 /* large tablet */ 
 @media only screen and (min-width: 900px) {

@@ -4,6 +4,13 @@
     background-size: cover;
     background-position: center; 
 }
+.booking {
+    background: url(../Images/mavis-cw-164128-min.jpg);
+}
+.contact, .booking {
+    background-size: cover;
+    background-position: center; 
+}
 label {
     text-transform: capitalize;
     margin-top: 20px;
@@ -32,11 +39,7 @@ i {
 .contact_success {
     text-align: center;
 }
-.booking {
-    background: url(../Images/mavis-cw-164128-min.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 .phone_number {
     display: flex;
     flex-direction: column;

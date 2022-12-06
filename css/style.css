@@ -209,7 +209,7 @@ footer img{
     background-position-x: left;
     background-position-y: top;  
 }
-.exhibition_spaces {
+.exhibition_spaces, .exhibition_intro {
     background-color: var(--dark_green);
     padding: 15px;
     margin: 20px 0px;
@@ -218,10 +218,10 @@ footer img{
     margin-bottom: 40px;
 }
 .exhibition_intro {
-    padding: 20px;
-    background-color: var(--dark_green);
     color: white;
 }
+
+
 
 /* Tablet */
 @media only screen and (min-width: 641px) {
