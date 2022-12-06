@@ -32,6 +32,16 @@ i {
 .contact_success {
     text-align: center;
 }
+.booking {
+    background: url(../Images/mavis-cw-164128-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.phone_number {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 
 /* Tablet */
 @media only screen and (min-width: 641px) {
@@ -45,7 +55,7 @@ i {
     .contact_cta {
         padding: 40px 30px;
     }
-    select {
+    select, input {
         font-size: 20px;
     }
     i {
@@ -91,7 +101,7 @@ i {
     .contact_cta {
         padding: 80px 30px;
     }
-    select {
+    select, input {
         font-size: 25px;
     }
     i {

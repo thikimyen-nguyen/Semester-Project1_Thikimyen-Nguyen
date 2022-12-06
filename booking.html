@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="booking, reserve ticket for events, tours at community science museum">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Orbitron&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Community Science Museum | Booking</title>
+</head>
+<body>
+    <header>
+        <div class="header_nav" >
+            <a href="index.html"><img src="images/logo1.png" alt="logo of community science museum"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="visit.html">visit</a></li>
+                    <li><a href="exhibitions.html">exhibitons</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header_banner time">
+            <p><span>free</span>entrance!</p>
+            <p>Open today: 10:00 - 16:00</p>
+        </div>
+    </header>
+    <main>
+        <div class="booking cover"></div>
+        <h1>booking information</h1>
+      
+        <div class="contact_form">
+            <form method="post">
+                <label for="name">name</label>
+                <input type="text" name="name" id="name" placeholder="John Smith" required>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="john@gmail.com" required>
+                <div class="phone_number">
+                    <label for="tel">phone number</label>
+                    <input type="tel" name="tel" id="tel" placeholder="123-45-678" required>
+                </div>
+                <label for="program">program</label>
+                <select name="program" id="program" required>
+                    <option value="none">--Please select--</option>
+                    <option value="visiting professor of aeronautics">Visiting Professor of Aeronautics</option>
+                    <option value="night in the museum">Night in the Museum</option>
+                    <option value="school tour">School Tour</option>
+                    <option value="guided tour">Guided Tour</option>
+                </select>
+                <div class="phone_number">
+                    <label for="quantity">number of visitors</label>
+                    <input type="number" name="quantity" id="quantity" required>
+                </div>
+                <div class="phone_number">
+                    <label for="date">date of visit</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <label for="message">special request</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your request here..."></textarea>
+            </form>
+            <div class="contact_cta">
+                <a href="bookingsuccess.html" class="cta">submit</a>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <a href="index.html"><img src="images/logo1.png" alt="logo of community science museum"></a>
+        </div>
+        <nav>
+            <ul class="footer_nav">
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="about.html">get involved</a></li>
+            </ul>
+            <ul class="get_involved">
+                <li>support us</li>
+                <li>volunteer</li>
+                <li>internships</li>
+                <li>researchers</li>
+            </ul>
+        </nav>
+        <p>&copy; All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
