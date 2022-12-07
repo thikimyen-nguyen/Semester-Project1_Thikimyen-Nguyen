@@ -165,7 +165,6 @@ p, .explore ul {
     padding: 0px 30px;
 }
 
-/* special event */
 .white_background {
     background-color: white;
     padding: 10px 30px ;
@@ -180,9 +179,7 @@ p, .explore ul {
     align-items: center;
     text-align: center;
 }
-.event_content img{
-    width: 85%;
-}
+
 .event{
     padding-bottom: 20px;
 }
@@ -218,6 +215,7 @@ footer img{
     background-color: white;
     margin-top: 15px;
 }
+/* Exhibition page */
 .exhibition {
     background: url(../Images/learn-2405206_1920-min.jpg);
     background-size: cover;
@@ -279,7 +277,6 @@ footer img{
         font-size: 20px;
         padding: 5px 20px;
     }
-    
     h1 {
         font-size: 30px;
         padding: 40px 0px;
@@ -304,15 +301,12 @@ footer img{
         font-size: 25px;
     }
    
-    
-    /* special event */
     .white_background{
         padding: 10px 40px ;
     }
     .event{
         padding-bottom: 50px;
     }
-
     footer{
         padding: 20px;
         column-gap: 70px;
@@ -346,7 +340,6 @@ footer img{
         grid-column: 1/ span 2;
     }
     .event{
-        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
     }
@@ -368,7 +361,6 @@ footer img{
     }
     .exhibition_intro {
         padding: 30px;
-        
     }
     h3{
         padding: 7px;
@@ -444,7 +436,6 @@ footer img{
         grid-row: 1/ span2;
         align-self: center;
     }
-   
     .explore_title > * {
         margin: 0px 20px;
     }
@@ -455,16 +446,12 @@ footer img{
     main span {
         font-size: 30px;
     }
-   
-    
-    /* special event */
     .white_background {
         grid-column: 1/ span 3;
     }
     .event{
         padding-bottom: 100px;
     }
-  
     .special_event {
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 20px;

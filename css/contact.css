@@ -20,10 +20,10 @@ form {
     flex-direction: column;
     padding: 0px 30px;
 }
-
 input, select, textarea {
     padding: 7px 0px;
     border-radius: 10px;
+    text-indent: 10px;
 }
 .contact_cta {
     padding: 30px;
@@ -51,9 +51,9 @@ i {
     label {
         margin-top: 30px;
     }
-    
     input, select, textarea {
         padding: 15px 0px;
+        text-indent: 15px;
     }
     .contact_cta {
         padding: 40px 30px;
@@ -76,7 +76,6 @@ i {
     label {
         margin-top: 40px;
     }
-    
     input, select, textarea {
         padding: 20px 0px;
     }
@@ -97,9 +96,9 @@ i {
     label {
         margin-top: 50px;
     }
-    
     input, select, textarea {
         padding: 25px 0px;
+        text-indent: 20px;
     }
     .contact_cta {
         padding: 80px 30px;
