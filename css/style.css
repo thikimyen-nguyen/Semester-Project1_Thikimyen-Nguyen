@@ -87,7 +87,7 @@ footer a{
 .cover_content {
     position: absolute;
     font-family: var(--orbitron);
-    color: white;
+    color: var(--dark_green);
     font-weight: 900;
     top: 20%;
     left: 10%;
@@ -96,7 +96,6 @@ footer a{
     display: block;
     font-family: var(--orbitron);
     font-size: 30px;
-    color: var(--dark_green);
 }
 .cta{
     font-size: 13px;
@@ -266,8 +265,8 @@ footer img{
         min-height: 400px;   
     }
     .cover_content {
-        font-size: 25px;
-        line-height: 200%;
+        font-size: 15px;
+        line-height: 250%;
     }
     .cover_content span {
         font-size: 45px;
@@ -330,7 +329,7 @@ footer img{
         min-height: 500px;
     }
     .cover_content {
-        font-size: 30px;
+        font-size: 20px;
     }
     .cover_content span {
         font-size: 60px;
@@ -404,7 +403,7 @@ footer img{
         min-height: 850px;   
     }
     .cover_content {
-        font-size: 40px;
+        font-size: 30px;
     }
     .cover_content span {
         font-size: 80px;
