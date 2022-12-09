@@ -86,10 +86,9 @@ footer a{
 }
 .cover_content {
     position: absolute;
-    font-family: var(--roboto);
-    color: var(--dark_green);
-    text-align: center;
-    font-size: 15px;
+    font-family: var(--orbitron);
+    color: white;
+    font-weight: 900;
     top: 20%;
     left: 10%;
 }
@@ -97,7 +96,7 @@ footer a{
     display: block;
     font-family: var(--orbitron);
     font-size: 30px;
-    font-weight: 900;
+    color: var(--dark_green);
 }
 .cta{
     font-size: 13px;
