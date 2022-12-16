@@ -87,6 +87,7 @@ footer a{
     background-size: cover;
     position: relative;
 }
+
 .cover {
     background-repeat: no-repeat;
     min-height: 250px; 
@@ -238,8 +239,11 @@ footer img{
 .exhibition_intro {
     color: white;
 }
-
-
+.involved {
+    background: url(../Images/mavis-cw-164128-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 /* Tablet */
 @media only screen and (min-width: 641px) {

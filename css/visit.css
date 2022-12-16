@@ -14,6 +14,7 @@
 .robotics {
     background: url(../Images/robotic.jpg);
 }
+
 .visit, .cosmology, .evolution, .biology, .robotics {
     background-size: cover;
     background-position: center; 
