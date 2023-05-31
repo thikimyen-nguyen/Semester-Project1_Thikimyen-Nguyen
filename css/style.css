@@ -82,15 +82,18 @@ footer a{
 
 .home {
     background: url(../Images/jesse-orrico-60373-min.jpg);
-    background-position-x: right;
-    background-position-y: top;  
+    /* background-position-x: right;
+    background-position-y: top;   */
     background-size: cover;
     position: relative;
+    background-position: center;
+    
 }
 
 .cover {
     background-repeat: no-repeat;
-    min-height: 250px; 
+    height: 150px; 
+    
 }
 .cover_content {
     position: absolute;
@@ -99,6 +102,8 @@ footer a{
     font-weight: 900;
     top: 20%;
     left: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5em;
 }
 .cover_content span {
     display: block;
@@ -273,7 +278,7 @@ footer img{
         font-size: 13px;
     }
     .cover {
-        min-height: 400px;   
+        height: 250px;   
     }
     .cover_content {
         font-size: 15px;
@@ -337,7 +342,7 @@ footer img{
 /* large tablet */ 
 @media only screen and (min-width: 900px) {
     .cover {
-        min-height: 500px;
+        height: 350px;
     }
     .cover_content {
         font-size: 20px;
@@ -411,7 +416,7 @@ footer img{
         font-size: 20px;
     }
     .cover {
-        min-height: 850px;   
+        height: 450px;   
     }
     .cover_content {
         font-size: 30px;
