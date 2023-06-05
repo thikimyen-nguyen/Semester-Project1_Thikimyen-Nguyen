@@ -3,16 +3,22 @@
 
 ![image](http://howareyounorway.no/wp-content/uploads/2023/05/semester-project1.jpg)
 
-A simple overview of this project.
+A website for the new opening local science museum.
 
 ## Description
 
-This is my first semester project to build a website for the Community Science Museum. The site should be informative and encouraging viewrs to visit the museum.
+This is my first semester project to build a website for the Community Science Museum. The site should be informative and encouraging viewers to visit the museum. It includes:
+- A Homepage with sections of activities
+- A Visit page for opening hours and other guidelines
+- A Exhibitions page
+- A Detailed Exhibition page
+- An About Us page
+- A Contact page
+- A Get Involved page for information about volunteer and job oportunities
 
 This site has fulfilled requirements that: 
 
 - appeals to middle school pupils and their parents as target audience.
-- must have at least 4-6 pages.
 - should be built in semantic HTML and CSS following DRY principle.
 - should be tested through WCAG priciples and managed with SEO.
 - should be responsive on various devices.
@@ -27,17 +33,12 @@ This site has fulfilled requirements that:
 
 ### Installing
 
-1. Clone the repo:
+Clone the repo:
 
 ```bash
 git@github.com:thikimyen-nguyen/Semester-Project1_Thikimyen-Nguyen.git
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
 
 ### Link to website, live on Netlify
 
