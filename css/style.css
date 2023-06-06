@@ -12,7 +12,7 @@
 body{
     font-family: var(--nunito);
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 200%;
 }
 /* reference https://dev.to/akhilarjun/one-line-sticky-header-using-css-5gp3 */
@@ -159,6 +159,7 @@ h3{
 .explore_title, .explore_content{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .explore_title > *, .explore_content > * {
